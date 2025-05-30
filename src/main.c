@@ -2,7 +2,7 @@
 
 int main() {
     while (1) {
-        VDP_waitVSync();
+        SYS_doVBlankProcess();
     }
     return 0;
 }

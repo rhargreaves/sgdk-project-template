@@ -8,14 +8,12 @@
     "vscode": {
       "extensions": [
         "ms-vscode.cpptools",
-        "anysphere.cpptools",
         "EditorConfig.EditorConfig",
         "xaver.clang-format"
       ]
     }
   },
   "postCreateCommand": {
-    "editorconfig": "apt -y install npm nodejs && npm install -g editorconfig",
-    "clangd": "apt -y install clangd-9 && update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-9 100"
+    "editorconfig": "apt -y install npm nodejs && npm install -g editorconfig"
   }
 }

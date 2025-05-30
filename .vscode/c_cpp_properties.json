@@ -17,7 +17,7 @@
       "cStandard": "c11",
       "cppStandard": "c++17",
       "intelliSenseMode": "linux-gcc-arm64",
-      "configurationProvider": "anysphere.cpptools",
+      "configurationProvider": "ms-vscode.cpptools",
       "compilerPath": "/usr/bin/gcc"
     }
   ],
